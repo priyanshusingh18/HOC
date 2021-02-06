@@ -1,0 +1,309 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+/* MAIN STYLING */
+html,body{
+  font-family:'Segoe UI', Segoe;
+}
+
+h1,h2,h3{
+  padding-bottom: 20px;
+}
+
+p{
+  margin: 10px 0;
+}
+a{
+  text-decoration: none;
+}
+/* NAVBAR */
+#navbar{
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a{
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 12px;
+  padding-bottom: 8px;
+
+}
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+#navbar ul LI {
+  float: left
+}
+#navbar ul LI a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+#navbar ul LI a:hover,
+ #navbar ul LI a.current{
+  background:#444;
+  color: #f7c08a;
+}
+
+/* ULTITIY CLASSES */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.primary-text{
+  color: #f7c08a;
+}
+
+.lead{
+  font-size: 20px;
+}
+
+.btn{
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color:#fff;
+  color: #333;
+}
+.bg-dark{
+  background-color:#333;
+  color: #fff;
+}
+
+.bg-light{
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary{
+  background:#333;
+  color:#f7c08a;
+}
+
+.btn-light{
+  background: #fff ;
+  color: #333;
+}
+.btn-light:hover{
+  background: #333;
+  color:  #fff ;
+}
+
+.clr{
+  clear:both;
+}
+.py-1{padding: 10px 0;}
+.py-2{padding: 20px 0;}
+.py-3{padding: 30px 0;}
+.py-4{padding: 40px 0;}
+.py-5{padding: 50px 0;}
+
+.l-heading{
+  font-size: 40px;
+}
+/* SHOWCASE */
+#showcase{
+  background:url('../image_resources/showcase.jpg') no-repeat
+  center center/cover;
+  height:600px;
+}
+
+#showcase .showcase-content{
+  text-align: center;
+  color: #fff;
+  padding-top: 170px;
+}
+#showcase .showcase-content h1{
+  font-size: 60px;
+  line-height: 1.5rem;
+}
+#showcase .showcase-content p{
+  padding-bottom: 20px;
+  margin: 0 10%;
+  line-height: 1.7rem;
+}
+
+/* HOME INFO */
+#my-info {
+  height: 400px;
+}
+#my-info .info-img{
+  float:left;
+  width:50%;
+  background:url('../image_resources/photo-1.jpg') no-repeat;
+  min-height:100%;
+  }
+
+#my-info .info-Contact{
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+}
+#my-info .info-Contact p{
+  padding-bottom: 20px;
+}
+
+/*  FEATURES SECTION */
+.box{
+  float: left;
+  width: 33.3%;
+  height: 100%;
+  padding: 50px;
+  text-align: center;
+  /* background */
+}
+
+.box i{
+  margin-bottom: 10px;
+}
+
+/* ABOUT INFO */
+
+.info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+  }
+ .info-left{
+float: left;
+width: 50%;
+min-height: 100%;
+padding: 20px;
+}
+
+.img-hotel{
+  width: 60%;
+  display: block;
+  margin:auto;
+  border-radius: 50%;
+  min-height: 100;
+  }
+.info-left p{
+  margin: 15px 30px;
+}
+.info-left h1{
+  margin: 15px 30px;
+}
+
+
+/* testimonial */
+ .testimonial{
+  height: 600px;
+  background: url('../image_resources/test-bg.jpg') no-repeat center center/cover;
+}
+
+ .testimonial h2{
+  text-align: center;
+  color: white;
+  padding-bottom: 55px;
+  }
+
+  .testimonial .testimonials{
+    /* background: url('../image_resources/test-bg.jpg') no-repeat center center/cover; */
+    padding: 20px;
+    margin-bottom: 40px;
+    height: 140px;
+    border-radius:8px;
+    opacity: 0.85;
+  }
+
+.testimonial .testimonials img{
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50px;
+  }
+/* FORM */
+.form-group{
+  margin-bottom: 20px;
+}
+
+.form-group label{
+display: block;
+margin-bottom:5px;
+}
+
+.form-group input{
+  width: 100%;
+  padding:10px;
+  border: 1px #ddd solid;
+  outline-color: #f7c08a;
+  border-color: #ddd;
+}
+
+ .form-group textarea{
+   height: 200px;
+   width: 100%;
+   padding:10px;
+   border: 1px #ddd solid;
+  display: block;
+  border-color: #ddd;
+  margin-bottom: 30px;}
+
+
+textarea:focus {
+  outline-color: #f7c08a;
+  ;
+}
+.paddingtop{
+  margin-top:0;
+}
+
+/* ICON  */
+.contact-icon{
+  background: #333;
+  width: 100%;
+  margin: auto;
+  overflow: auto;
+  color: #f7c08a;
+
+}
+
+.icon-align{
+  width: 70%;
+  margin: auto;
+
+}
+
+.icon-divide{
+  /* float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center; */
+
+display: inline-block;
+ padding: 30px;
+ width: 33%;
+ text-align: center;
+}
+
+
+/* FOOTER */
+#main-footer{
+  position: sticky;
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding:10px;
+  clear:both;
+}
